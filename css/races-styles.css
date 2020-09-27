@@ -1,0 +1,10 @@
+.title_wrap {
+  display: flex;
+  justify-content: center;
+}
+.race_title {
+  width: 200px;
+}
+h1 {
+  color: red!important;
+}
