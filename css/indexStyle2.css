@@ -1,0 +1,61 @@
+.options_wrap {
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 20px;
+}
+.options_con {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.options_item {
+  margin-top: 20px;
+  height: 500px;
+  width: 45%;
+  margin: 5px;
+}
+.options_item p {
+  width: 90%;
+}
+.option3 {
+  text-align: center;
+}
+.option2{
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .carousel, .carousel-inner {
+    height: 250px;
+  }
+  .options_item {
+    width: 90%;
+    height: 400px;
+  }
+  .navBar{
+    width: 360px;
+  }
+}
+.navBarWrap{
+  display: flex;
+  justify-content: center;
+}
+.navBar{
+  padding: 0px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.navItem a{
+    color: #8656df!important;
+    font-size: 18px;
+}
+.navLink:hover{
+  text-decoration: none;
+  color: #FFB800!important;
+}

@@ -61,34 +61,6 @@ body {
 .thething{
   color: red!important!;
 }
-.myline {
+.myLine {
   background-color: #FF2121;
-}
-.navBarWrap{
-  display: flex;
-  justify-content: center;
-}
-.navBar{
-  padding: 0px;
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 0px;
-}
-.navItem a{
-    color: #8656df!important;
-    font-size: 18px;
-}
-.navLink:hover{
-  text-decoration: none;
-  color: #FFB800!important;
-}
-@media only screen and (max-width: 400px) {
-  .navBar{
-    width: 360px;
-  }
 }
