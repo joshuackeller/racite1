@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .races_con {
-  width: 800px;
+  width: 900px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -24,7 +24,7 @@
 .races_item {
   width: 350px;
   height: 380px;
-  margin: 10px;
+  margin: 50px;
 }
 .race_photo {
   width: 324px;
