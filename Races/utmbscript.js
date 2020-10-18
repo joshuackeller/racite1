@@ -1,4 +1,4 @@
-alert("Red Alert!");
+
 function initMap() {
   const myLatLng = { lat: 45.932, lng: 6.872 };
   const map = new google.maps.Map(document.getElementById("map"), {
