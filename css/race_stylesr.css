@@ -1,0 +1,69 @@
+.title_wrap {
+  display: flex;
+  justify-content: center;
+}
+@font-face {
+    font-family: "ChunkFive-Regular";
+    src: url("ChunkFive-Regular.otf");
+}
+.race_title {
+  width: 300px;
+  font-family: "ChunkFive-Regular";
+  text-align: center;
+}
+.races_wrap {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.races_con {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.races_item {
+  width: 350px;
+  height: 380px;
+  margin: 50px;
+}
+.race_photo {
+  width: 324px;
+  height: 324px;
+  margin-bottom: 10px;
+}
+.wphoto {
+  padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.info_con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.race_inf {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+}
+.race_loc {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+}
+.wserHeader{
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .races_item {
+    width: 300px;
+    height: 380px;
+  }
+}
+#map {
+  height: 300px;
+  width: 350px;
+}

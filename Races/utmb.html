@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="../css/master.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/about-styles.css">
-  <title>Home Page</title>
+  <link rel="stylesheet" href="../css/race_stylesr.css">
+  <title>UTMB</title>
 </head>
 
 <body>
@@ -41,26 +41,43 @@
   <div class="line">
     <hr class="myline">
   </div>
-
-  <div class="about_wrap">
-    <div class="about_con">
-      <h1 class="about_header">About</h1>
+  <div class="title_wrap">
+    <div class="title_con">
+      <h1 class="race_title">Ultra-Trail Mont Blanc</h1>
     </div>
-  </div>
+ </div>
+ <div class="wphoto_wrap">
+   <img class="wphoto" src="../Images/banner.jpg" alt="Western States">
+ </div>
 
-  <div class="about_p_wrap">
-  <div class="about_p">
-    <h2>What is Racite?</h2>
-    <p width="500px">Creating a race is not easier. Having to set up a
-      website just makes it harder. On the side of the runners, finding a race
-      and signing up for it can also be difficult. Racite makes it this whole
-      process easier and more affordable for runners and race directors.
-    </p>
-  </div>
-  </div>
-    <footer class="page-footer text-center py-3">This is a link to my githup repository: <a class="link" href="https://github.com/joshuackeller/racite1.git">https://github.com/joshuackeller/racite1.git</a></footer>
+ <div class="info_wrap">
+   <div class="info_con">
+     <div class="race_inf">
+       <h2 class="wserHeader">Race Info</h2>
+       <p>Date: August 23, 2021</p>
+       <p>Distance: 105 miles</p>
+       <p>Participants: 2300</p>
+       <p>Record Time: 20:19:07 (Pau Capell, 2019)</p>
+     </div>
+     <div class="race_loc">
+       <h2 class="wserHeader">Race Location</h2>
+       <p>Start: Chamonix, France</p>
+       <div id="map"></div>
+     </div>
+   </div>
+ </div>
+
+
+  <footer class="page-footer text-center py-3">This is a link to my githup repository: <a class="link" href="https://github.com/joshuackeller/racite1.git">https://github.com/joshuackeller/racite1.git</a></footer>
+
 
   <!-- DON'T TOUCH:  -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMLNSDX-CavVG7YCzyaeiDptGbWyce2Y4&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+  <script src="utmbscript.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
